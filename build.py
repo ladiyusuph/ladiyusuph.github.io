@@ -11,7 +11,7 @@ ROOT = pathlib.Path(__file__).resolve().parent
 SITE = ROOT / "site"
 URL = "https://ladiyusuph.github.io/"
 TITLE = "Ladi Yusuph, React Native developer and mobile team lead"
-DESCRIPTION = "React Native developer and mobile team lead with product experience, building since 2022: offline-first apps, on-device AI, and responsive-rn, an open source library on npm."
+DESCRIPTION = "React Native developer and mobile team lead, building since 2022: offline-first apps, on-device AI, and responsive-rn, an open source library on npm."
 
 source = (ROOT / "index.html").read_text()
 # Everything up to the end of the page's <style> goes in <head>; the rest is the body.

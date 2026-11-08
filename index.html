@@ -289,8 +289,8 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
 <div class="home">
   <section class="hero"><div class="wrap">
     <h1>Ladi Yusuph.</h1>
-    <p class="role-line">React Native developer and mobile team lead, <span>who also understands the product.</span></p>
-    <p class="lede">I've been building software since 2022, and I lead a mobile team. My apps keep working offline, and some run AI on the device. On everything I build, on my own or with a team, I work on the product side too, so I build with a clear view of what the product needs.</p>
+    <p class="role-line">React Native developer and mobile team lead, <span>building apps that work offline and run AI on the phone.</span></p>
+    <p class="lede">I've been building software since 2022, and I lead a mobile team. I start from the problem an app has to solve, then make it reliable on the phones people actually use: offline when the signal drops, and AI that runs on the device.</p>
     <div class="cta">
       <a class="btn btn-blue" href="#work">See my work</a>
       <a class="btn btn-line" href="https://github.com/ladiyusuph">GitHub</a>
@@ -351,7 +351,7 @@ const title = <span class="k">useFluidValue</span>(20, 32);
   <section class="s" id="work"><div class="wrap">
     <div class="head">
       <div><p class="eyebrow">Work</p><h2>Six apps, and how I built them.</h2></div>
-      <p>The client apps are the mobile side of larger systems, from CBT to school management and state-level exams, and I worked on the product side of them with the team. Each opens a page on the problem, how it works and the trade-offs. Client names are left out.</p>
+      <p>The client apps are the mobile side of larger systems, from CBT to school management and state-level exams. Each opens a page on the problem, how it works and the trade-offs. Client names are left out.</p>
     </div>
 
     <a class="product" href="#ai-research">
@@ -481,9 +481,9 @@ const title = <span class="k">useFluidValue</span>(20, 32);
       <div><p class="eyebrow">Career</p><h2>From independent developer to mobile team lead.</h2></div>
     </div>
     <ol class="timeline">
-      <li><span class="year">2022</span><h3>Independent developer</h3><p>Started building software on my own projects, before working with any clients, and shaped the product of each as much as the code.</p></li>
-      <li><span class="year">2023</span><h3>Mobile developer, ThecodeUnit</h3><p>Joined ThecodeUnit Soft Technologies to build mobile apps, and worked on the product side of everything we built, from school and tertiary systems to examinations and CBT.</p></li>
-      <li><span class="year">2025</span><h3>Team lead, mobile development</h3><p>Lead mobile development at ThecodeUnit, and still work on the product side. Outside work I build my own products, including the on-device AI research assistant above.</p></li>
+      <li><span class="year">2022</span><h3>Independent developer</h3><p>Started building software on my own projects, before working with any clients.</p></li>
+      <li><span class="year">2023</span><h3>Mobile developer, ThecodeUnit</h3><p>Joined ThecodeUnit Soft Technologies to build mobile apps for its school, examination and CBT systems.</p></li>
+      <li><span class="year">2025</span><h3>Team lead, mobile development</h3><p>Lead mobile development at ThecodeUnit. Outside work I build my own products, including the on-device AI research assistant above.</p></li>
       <li class="now"><span class="year">Now</span><h3>Open to React Native roles</h3><p>Looking for a React Native role where I can lead on mobile.</p></li>
     </ol>
   </div></section>
@@ -494,7 +494,6 @@ const title = <span class="k">useFluidValue</span>(20, 32);
       <div><h3>Offline-first data and sync</h3><p>Local databases with SQLite and Drizzle ORM, saves that survive a dropped connection, and sync that reconciles with the server later.</p><p class="proof">Used in 4 shipped apps</p></div>
       <div><h3>On-device AI</h3><p>AI that runs fully on the phone: retrieval and answer generation with vector search in SQLite and a small language model through ExecuTorch, and on-device photo checks.</p><p class="proof">Used in 3 apps</p></div>
       <div><h3>Performance, testing and releases</h3><p>Profiling on mid-range Android, Jest tests, release tests with pass marks set in advance, and EAS builds to testers and the stores.</p><p class="proof">Pass marks set before the run</p></div>
-      <div><h3>Building with the product in mind</h3><p>Having worked on the product side, I build apps that fit how the whole system works, and I can talk through trade-offs with product and design.</p><p class="proof">On every product I've built since 2022</p></div>
     </div>
     <ul class="tags on-white" style="margin-top:32px" aria-label="Tools I use"><li>React Native</li><li>Expo</li><li>TypeScript</li><li>Expo Router</li><li>TanStack Query</li><li>SQLite</li><li>Drizzle ORM</li><li>ExecuTorch</li><li>Supabase</li><li>Jest</li><li>EAS</li></ul>
   </div></section>
@@ -575,7 +574,7 @@ const title = <span class="k">useFluidValue</span>(20, 32);
         <li><strong>Generate</strong><span>A language model running through ExecuTorch drafts questions from the indexed material into the question bank.</span></li>
         <li><strong>Assemble</strong><span>Questions are organised by subject into papers, and students can be added in bulk.</span></li>
       </ol></div></section>
-      <section class="d-sec"><h3>My part</h3><div><p class="mine"><span class="eyebrow">What I built</span>I wrote the mobile app. The product as a whole was a team effort, and I worked on it with the team on the product side too.</p></div></section>
+      <section class="d-sec"><h3>My part</h3><div><p class="mine"><span class="eyebrow">What I built</span>I wrote the mobile app. The product as a whole was a team effort.</p></div></section>
       <section class="d-sec"><h3>Engineering highlights</h3><div><ul class="points">
         <li><strong>Long AI jobs that survive the background</strong>A foreground service, added through a custom Expo config plugin, keeps indexing and generation running when the user leaves the app.</li>
         <li><strong>One pipeline, two models</strong>The embedding and generation models share one pipeline that tracks when each is ready and retries only what failed.</li>
@@ -659,7 +658,7 @@ const title = <span class="k">useFluidValue</span>(20, 32);
     <header class="d-head">
       <p class="eyebrow">Client project · built with my team</p>
       <h2 id="school-title">Multi-school app for parents and teachers.</h2>
-      <p class="lede">The mobile app of a school management system. One app on the store serves many schools: parents follow results, fees and attendance, and teachers run registers and enter scores. I also worked on the product side of the system.</p>
+      <p class="lede">The mobile app of a school management system. One app on the store serves many schools: parents follow results, fees and attendance, and teachers run registers and enter scores.</p>
       <ul class="tags on-white"><li>React Native</li><li>Expo</li><li>TypeScript</li><li>REST APIs</li></ul>
     </header>
     <div class="d-hero" aria-hidden="true"><div class="wf">
